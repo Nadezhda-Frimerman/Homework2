@@ -49,11 +49,14 @@ public class Main {
         var weight4=82.7;
         var weightDifference1=weight4%weight3;
         System.out.println("weight difference "+weightDifference1+" kg.");
-
-
-
-
-
+        System.out.println("exercise 8");
+        var WorkTime=640;
+        var WorkTime1=8;
+        var WorkersQuantity=WorkTime/WorkTime1;
+        System.out.println("Всего работников в компании - "+WorkersQuantity+" человек");
+        WorkersQuantity=WorkersQuantity+94;
+        var WorkTime2=WorkTime1*WorkersQuantity;
+        System.out.println("Если в компании работает "+WorkersQuantity+" человек, то всего "+WorkTime2+" часов может быть поделено между сотрудниками.");
 
 
     }
