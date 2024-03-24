@@ -57,7 +57,5 @@ public class Main {
         WorkersQuantity=WorkersQuantity+94;
         var WorkTime2=WorkTime1*WorkersQuantity;
         System.out.println("Если в компании работает "+WorkersQuantity+" человек, то всего "+WorkTime2+" часов может быть поделено между сотрудниками.");
-
-
     }
 }
